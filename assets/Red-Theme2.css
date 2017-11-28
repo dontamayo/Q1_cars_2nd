@@ -1,0 +1,194 @@
+/* ========================== 
+Red Theme
+Color Code : #EF5350
+=============================*/
+
+
+/* Background Color */
+
+a.btn,
+.btn-floating,
+.btn,
+.btn:focus,
+.btn-large:focus,
+.btn-floating:focus,
+.btn:hover,
+.btn.btn-large:hover,
+.btn.dark-btn:hover,
+.btn.dark-btn:focus,
+a.btn.dark-btn:hover,
+a.btn.dark-btn:focus,
+.btn-floating:hover,
+#price-table .price.highlight,
+#price-table .price .price-number,
+#price-table.colored-background .btn,
+#price-table .price .shap,
+.mask,
+footer.page-footer,
+.colored-background,
+.pagination li.active,
+.chip,
+a.chip,
+.carousel-control a,
+.button-collapse,
+#team .card.team-member ul.social-links a:hover i,
+#video a,
+body.creative-demo:not(.boxed):not(.skew-transform) .content > .container #about:before,
+body.creative-demo:not(.boxed):not(.skew-transform) .content > .container #about:after,
+.skew-transform.home .colored-background:before,
+.skew-transform.home .colored-background:after {
+	background-color: #EF5350;
+}
+
+/* Border Color */
+
+.spinner-blue,
+.spinner-blue-only,
+input:not([type]):focus:not([readonly]),
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=date]:focus:not([readonly]),
+input[type=datetime]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]),
+a.btn.dark-btn,
+.parallax-section .parallax-container .section-content .btn,
+.btn.dark-btn,
+blockquote,
+.filter-menu li.active,
+#team .card.team-member .card-content,
+#testimonials .carousel .carousel-item.active .card,
+.side-nav > li:not(.logo) a.active,
+#services .active .card.service {
+	border-color: #EF5350;
+}
+
+/* Text Color */
+
+#services .service i,
+#price-table .price.highlight .price-number,
+#price-table .price.highlight .btn,
+#price-table .price:not(.highlight) .service-title,
+#team .social-links li:hover a,
+header nav ul a:hover,
+input:not([type]):focus:not([readonly])+label,
+input[type=text]:focus:not([readonly])+label,
+input[type=password]:focus:not([readonly])+label,
+input[type=email]:focus:not([readonly])+label,
+input[type=url]:focus:not([readonly])+label,
+input[type=time]:focus:not([readonly])+label,
+input[type=date]:focus:not([readonly])+label,
+input[type=datetime]:focus:not([readonly])+label,
+input[type=datetime-local]:focus:not([readonly])+label,
+input[type=tel]:focus:not([readonly])+label,
+input[type=number]:focus:not([readonly])+label,
+input[type=search]:focus:not([readonly])+label,
+textarea.materialize-textarea:focus:not([readonly])+label,
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating),
+.card .card-action a:not(.replay),
+.card.blog .card-title *:not(a),
+.card .card-title *:not(a),
+a.replay:hover,
+.dropdown-content li>a,
+.dropdown-content li>span,
+a,
+.filter-menu li.active,
+.filter-menu li:hover,
+.colored-background .btn,
+.colored-background .carousel-control a i,
+.colored-background .carousel-control a,
+.contact-info strong,
+.error-page h1 i,
+.side-nav a:hover i.material-icons,
+.side-nav a.active i.material-icons,
+.side-nav li.logo .social-links li>a>i,
+#team .card.team-member .card-content p,
+.list a:not(.chip):hover,
+.list a:not(.chip):focus,
+p.comment-date {
+	color: #EF5350;
+}
+input:not([type]):focus:not([readonly]),
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=date]:focus:not([readonly]),
+input[type=datetime]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+	box-shadow: 0 1px 0 0 #EF5350;
+	-webkit-box-shadow: 0 1px 0 0 #EF5350;
+	-moz-box-shadow: 0 1px 0 0 #EF5350;
+}
+
+/* Gradient Colors */
+
+
+/* Demo1 */
+
+.gradient-mask-1 .mask {
+	background: #ef5350;
+	background: -moz-linear-gradient( top, #ef5350 0%, #333c44 100%);
+	background: -webkit-linear-gradient( top, #ef5350 0%, #333c44 100%);
+	background: linear-gradient(to bottom, #ef5350 0%, #333c44 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ef5350', endColorstr='#333c44', GradientType=1);
+}
+.gradient-mask-1 .mask .dark-mask {
+	background: #333c44;
+	background: -moz-linear-gradient(top, #ef5350 0%, #333c44 100%);
+	background: -webkit-linear-gradient(top, #ef5350 0%, #333c44 100%);
+	background: linear-gradient(to bottom, #ef5350 0%, #333c44 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ef5350', endColorstr='#333c44', GradientType=1);
+}
+
+/* demo2*/
+
+.gradient-mask-2 .mask {
+	background: #EF5350;
+	background: -moz-linear-gradient(left, #ef5350 0%, #333c44 100%);
+	background: -webkit-linear-gradient(left, #ef5350 0%, #333c44 100%);
+	background: linear-gradient(to right, #ef5350 0%, #333c44 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ef5350', endColorstr='#333c44', GradientType=1);
+}
+.gradient-mask-2 .mask .dark-mask {
+	background: #333c44;
+	background: -moz-linear-gradient(left, #ef5350 0%, #333c44 100%);
+	background: -webkit-linear-gradient(left, #ef5350 0%, #333c44 100%);
+	background: linear-gradient(to right, #ef5350 0%, #333c44 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ef5350', endColorstr='#333c44', GradientType=1);
+}
+
+/*=========================*/
+
+
+/*=============  Skew Transform =============*/
+
+.skew-transform #about.colored-background:after,
+.skew-transform #about.colored-background:before,
+.skew-transform #price-table:before,
+.skew-transform #price-table:after {
+	border-color: #ef5350;
+}
+.skew-transform #buy-theme:before,
+.skew-transform #video:before,
+.skew-transform #clients:before {
+	border-bottom-color: #ef5350;
+}
+.skew-transform #buy-theme:after,
+.skew-transform #clients:after,
+.black-style.skew-transform #clients:after {
+	border-top-color: #ef5350;
+}
+
+/*=====================*/
