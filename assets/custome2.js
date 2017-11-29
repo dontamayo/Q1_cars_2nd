@@ -83,7 +83,7 @@ $(document).ready(function () {
 	// Autoplay Carousel
 	setInterval(function () {
 		$('.carousel').carousel('next');
-	}, 20000);
+	}, 2000);
 
 	// ScrollSpy
 	$('.scrollspy').scrollSpy({
@@ -189,7 +189,7 @@ $(document).ready(function () {
 			callback: function () {
 				// Call jQuery CountTo plugin
 				$('.counter').countTo({
-					speed: 2000 // Speed of the counter
+					speed: 50000 // Speed of the counter
 				});
 			}
 		},
