@@ -1,10 +1,10 @@
 /*===============================
 
-Main Custome Script  
+Main Custome Script
 Project : Rahil - Material  OnePage Responsive Template
 Version : 2.0
 Author: Norhan_Moh
-Primary use : Templates / Creative / Portfolio / Business 
+Primary use : Templates / Creative / Portfolio / Business
 
 
 Table Content :
@@ -12,7 +12,7 @@ Table Content :
 + Set Variable
 + Initialization of MATERIALIZE.CSS Plugins
 + Autocomplete For Blog Search Box
-+ Back to Top Button Acion 
++ Back to Top Button Acion
 + Click Dialogs ( Toast )
 + Carousel Controls
 + Filter
@@ -61,7 +61,7 @@ $(document).ready(function () {
 	$('.modal').modal();
 
 
-	// Mobile Sidebar  
+	// Mobile Sidebar
 	$(".button-collapse").sideNav({
 		closeOnClick: true,
 		draggable: false
@@ -75,7 +75,7 @@ $(document).ready(function () {
 	//collapsible
 	$('.collapsible').collapsible();
 
-	// Slider 
+	// Slider
 	$('.slider').slider({
 		fullWidth: true
 	});
@@ -83,7 +83,7 @@ $(document).ready(function () {
 	// Autoplay Carousel
 	setInterval(function () {
 		$('.carousel').carousel('next');
-	}, 7000);
+	}, 20000);
 
 	// ScrollSpy
 	$('.scrollspy').scrollSpy({
@@ -108,9 +108,9 @@ $(document).ready(function () {
 	});
 
 
-	/* =============== Autocomplete For Blog Search Box ======================= 
+	/* =============== Autocomplete For Blog Search Box =======================
 
-	     "Web Design": null, 
+	     "Web Design": null,
 	     "Web Design" : The data that will displaying there (Options)
 	      null : No Image --> You can put image
 	======================================================================= */
@@ -147,7 +147,7 @@ $(document).ready(function () {
 
 	/*======= Carousel Controls =======*/
 
-	// Next Slide   
+	// Next Slide
 	$(".carousel-control .next").on('click', function (e) {
 		e.preventDefault();
 
@@ -166,13 +166,13 @@ $(document).ready(function () {
 	function categoryFilter() {
 		$(".category." + catergoryName).show("400"); // Show the filter items
 		$(".category:not(." + catergoryName + ")").hide("400"); // Hide the non-filter items
-		$(".filter-menu li[data-filter='" + catergoryName + "']").addClass("active").siblings("li").removeClass("active"); // Active (colored) the category name 
+		$(".filter-menu li[data-filter='" + catergoryName + "']").addClass("active").siblings("li").removeClass("active"); // Active (colored) the category name
 	}
 
-	// For Default : Show all Categories and Active "All" Tab at the Filter menu 
+	// For Default : Show all Categories and Active "All" Tab at the Filter menu
 	categoryFilter();
 
-	// On click -- Show the Category related to the clicked link 
+	// On click -- Show the Category related to the clicked link
 	$(".filter-menu li").on('click', function (e) {
 		e.preventDefault();
 		catergoryName = $(this).attr("data-filter");
@@ -182,12 +182,12 @@ $(document).ready(function () {
 
 	/*======= jQuery countTo Plugin and Animations  =======*/
 
-	//Set scrollFire for jQuery countTo Plugin 
+	//Set scrollFire for jQuery countTo Plugin
 	options = [{
 			selector: '#achievements', //  the selectore
 			offset: 200, // Offset
 			callback: function () {
-				// Call jQuery CountTo plugin 
+				// Call jQuery CountTo plugin
 				$('.counter').countTo({
 					speed: 2000 // Speed of the counter
 				});
@@ -289,12 +289,12 @@ $(document).ready(function () {
 	//Initialization the scrollFire  plugin
 	Materialize.scrollFire(options);
 
-	// SideNav Animation 
+	// SideNav Animation
 	$(".navbar-fixed  .button-collapse").on('click', function () {
 		$("#nav-mobile li").css("opacity", "0");
 		Materialize.showStaggeredList('#nav-mobile ');
 	});
-	// Fix Drag Issue 
+	// Fix Drag Issue
 	$(".drag-target").on("swipeleft", function () {
 		$("#sidenav-overlay").trigger("click");
 	});

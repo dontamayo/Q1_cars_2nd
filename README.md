@@ -8,3 +8,8 @@ b) for entertainments like watching video clips from related topics
 c) for auto show schedules nearby
 d)  using affiliate marketing to sustain the site
 e) expand!
+
+
+
+related websites:
+1.http://obsessedgarage.com/

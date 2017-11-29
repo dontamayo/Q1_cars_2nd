@@ -1,11 +1,11 @@
 /*===============================
 
 
-Main stylesheet 
-Project : Rahil - Material  OnePage Responsive Template  
+Main stylesheet
+Project : Rahil - Material  OnePage Responsive Template
 Version : 2.0
 Author: Norhan_Moh
-Primary use : Templates / Creative / Portfolio / Business 
+Primary use : Templates / Creative / Portfolio / Business
 
 
 Table Content :
@@ -41,15 +41,15 @@ Table Content :
  Main Colors :
 -----------------
 + Text :
-      - Titles -- >#45464c 
-      - Pharagraphs -->  #828080 
+      - Titles -- >#45464c
+      - Pharagraphs -->  #828080
 + Backgrounds:#fff ,#f5f5f5
 
 
 Images Sizes :
 ------------------------------------
 + Porfolio ---- > 220 X 200
-+ Blogs ---- > 
++ Blogs ---- >
     - Small For homepage ---- > 200 X 200
     - Normal   ---- > 678 X 502
     - Author   ---- > 78 X 78
@@ -61,33 +61,33 @@ Images Sizes :
 
 Custome Helpers ( Classes ) For the Template :
 ------------------------------------
-+ Backgrounds : 
-    - colored-background ---- > for Solid colored  Ex: Price Section 
++ Backgrounds :
+    - colored-background ---- > for Solid colored  Ex: Price Section
     - mask ---- > Using with Parallax section  for colored Background with opacity Ex: Contact Info Section
-    - dark-mask.mask ---- > Using with Parallax section  for Dark Background with opacity Ex: Buy-Theme Section 
+    - dark-mask.mask ---- > Using with Parallax section  for Dark Background with opacity Ex: Buy-Theme Section
 
-+ Sections : 
++ Sections :
     - small-section ---- > For Small Sections Ex: Contact Info Section
     - parallax-section ---- > For Parallax Sections Ex: Contact Info Section
 
 + Titles
     - section-title ---- > For  Title of the section  Ex: Our Story at About section
-    - title ---- > For Normal Title 
+    - title ---- > For Normal Title
     - sub-title ---- > For Sub Titles Ex: " Add Comment " at Single Blog page
 
 + btn -- > For Buttons
 + list -- > For Simple Lists
-+ single-page -- > For other pages EX: Blog's Pages 
++ single-page -- > For other pages EX: Blog's Pages
 + black-style -- > For Black style
 
 + Gradient Mask Background
     - gradient-mask-1 -- > For Gradient Mask Background Demo1
     - gradient-mask-2 -- > For Gradient Mask Background Demo2
 
-+ Boxed layout 
++ Boxed layout
     - boxed --> For boxed layout ( Doesn't work without Container Class)
- 
-+ Patterns 
+
++ Patterns
 	- light-pattern-1 --> For Light Pattern Background (1 [1.png] is the name of the pattern)
 	- dark-pattern-1 --> For Dark Pattern Background (1 [1.png] is the name of the pattern)
 
@@ -105,20 +105,20 @@ NOTE :
 More Helpers from Materialize Css Framework : http://materializecss.com/helpers.html
 
 
-For Image's Logo 
+For Image's Logo
 ------------------------------------
-You can replace the Rahil Logo text with the image 
- 
-Ex : 
------ > Rahil Text Logo : 
+You can replace the Rahil Logo text with the image
+
+Ex :
+----- > Rahil Text Logo :
         <a href="index.html" class="brand-logo rahil-logo ">Rahil</a>
 
 ----- > Just Put you Logo's Image inside <a> Tage and Remove [rahil-logo class]
         <a href="index.html" class="brand-logo  "><img src="http:www.YourDomain.com/logo" ></a>
 
-+ For The logo At the Banner 
++ For The logo At the Banner
 
-----> Just add the logo's image inside brand-logo block 
+----> Just add the logo's image inside brand-logo block
     <div class="brand-logo"><img src="http:www.YourDomain.com/logo" ></div>
 
 --------------
@@ -1517,7 +1517,7 @@ iframe {
 /*-- ===== ====== ===== --*/
 
 
-/* ===== 404 Error Page  ===== */ 
+/* ===== 404 Error Page  ===== */
 
 body:not(.error-parallax-page) .error-page {
 	position: absolute;
