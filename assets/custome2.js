@@ -315,12 +315,13 @@ $(document).ready(function () {
 						lat: cityLat,
 						lng: cityLng
 					},
-					zoom: 8,
+					zoom: 12,
 					scrollwheel: false
 				});
 			}
 			initMap();
 		}
+
 
 	})();
 	/* =========================================== */
