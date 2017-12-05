@@ -1,4 +1,4 @@
-/* ========================== 
+/* ==========================
 Red Theme
 Color Code : #EF5350
 =============================*/
@@ -37,7 +37,7 @@ body.creative-demo:not(.boxed):not(.skew-transform) .content > .container #about
 body.creative-demo:not(.boxed):not(.skew-transform) .content > .container #about:after,
 .skew-transform.home .colored-background:before,
 .skew-transform.home .colored-background:after {
-	background-color: #EF5350;
+	background-color: #2888A8;
 }
 
 /* Border Color */

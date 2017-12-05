@@ -1,10 +1,7 @@
 /*===============================
 
 Main Custome Script
-Project : Rahil - Material  OnePage Responsive Template
-Version : 2.0
-Author: Norhan_Moh
-Primary use : Templates / Creative / Portfolio / Business
+Project : Don Tamayo - Material  OnePage Responsive Template
 
 
 Table Content :
@@ -83,7 +80,7 @@ $(document).ready(function () {
 	// Autoplay Carousel
 	setInterval(function () {
 		$('.carousel').carousel('next');
-	}, 2000);
+	}, 4000);
 
 	// ScrollSpy
 	$('.scrollspy').scrollSpy({
@@ -324,6 +321,7 @@ $(document).ready(function () {
 
 
 	})();
+
 	/* =========================================== */
 	/*======= Video Modals links =======*/
 	$("a[href='#video-modal' ]").on('click', function () {
