@@ -1,0 +1,19 @@
+#map {
+  height: 40%;
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  width: inherit;
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-image: url("images.png");
+}
