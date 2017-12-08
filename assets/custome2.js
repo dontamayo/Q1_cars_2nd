@@ -1,8 +1,7 @@
 /*===============================
 
 Main Custome Script
-Project : Don Tamayo - Material  OnePage Responsive Template
-
+Project : Don Tamayo : Car Mania
 
 Table Content :
 -----------------

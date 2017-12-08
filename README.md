@@ -1,18 +1,15 @@
 # Q1_cars_2nd
+# Q1_cars
 
+## Alt-H2 This project  is  dedicated for my Q1 project 2017.
+### H3 Deployment  Date: 12 / 07 / 2017
 
-1. Im using materializecss for my q1 project.
-
-
-2.  Goals:
-
-a. To create a website that can be used by everyone for getting informations about cars
-b. for entertainments like watching video clips from related topics
-c. for auto show schedules nearby
-d. using affiliate marketing to sustain the site
- e. expand!
-
-
+objective:
+1. create a website for car slides
+2. group them into each class
+3. link it to affiliate marketing
+4. use API for car shows nearby
+5. connect to people that share the same interest.
 
 related websites:
 1.http://obsessedgarage.com/
